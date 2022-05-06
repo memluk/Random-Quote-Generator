@@ -1,0 +1,32 @@
+.card {
+  position: relative;
+}
+
+.fillOut {
+  position: absolute; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  text-align: center;
+}
+
+.layer {
+  background-color: turquoise; 
+  border: 1px solid black; 
+  width: 250px; 
+  height: 150px; 
+  font-size: larger;
+}
+
+.cover {
+  background-color: orange; 
+  border: 1px solid; 
+  width: 250px; 
+  height: 150px; 
+  font-size: larger;
+}
+
+#changeButton {
+  position: absolute; 
+  margin-top: 150px;
+}
